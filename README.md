@@ -51,4 +51,4 @@ To start the application, run the following command in the terminal:
 
 sh
 Copy code
-npm start
+npm start```
