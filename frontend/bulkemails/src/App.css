@@ -1,0 +1,73 @@
+/* EmailForm.css */
+
+.email-form {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the form */
+}
+
+.email-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.email-form form {
+  display: inline-block; /* Make form inline-block to center it */
+  text-align: left; /* Align form elements to the left */
+}
+
+.email-form label {
+  display: block; /* Ensure labels are on a new line */
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold; /* Make labels bold */
+}
+
+.email-form input[type="text"],
+.email-form input[type="email"],
+.email-form textarea,
+.email-form input[type="file"],
+.email-form button {
+  width: calc(100% - 22px); /* Set width to fill the container */
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.email-form input[type="file"] {
+  width: calc(100% - 140px); /* Adjust width for file input */
+}
+
+.email-form button {
+  width: 150px; /* Set fixed width for button */
+  margin: 0 auto; /* Center the button */
+  display: block; /* Ensure button is on a new line */
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.email-form button:hover {
+  background-color: #0056b3;
+}
+
+.email-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.email-form button:disabled:hover {
+  background-color: #ccc;
+}
